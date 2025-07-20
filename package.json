@@ -1,0 +1,14 @@
+{
+  "name": "play-console-batch",
+  "version": "1.0.0",
+  "scripts": {
+    "login": "node Auth/Login.js",
+    "run": "node scripts/RunBatchUpdate.js"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.44.1",
+    "googleapis": "^150.0.1",
+    "playwright": "^1.52.0",
+    "protobufjs": "^7.5.3"
+  }
+}
